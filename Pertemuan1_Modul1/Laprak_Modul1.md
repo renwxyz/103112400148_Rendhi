@@ -124,7 +124,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/renwxyz/103112400148/blob/main/Pertemuan1_Modul1/unguided/output/operasiFloat-output.png)
+![Screenshot Output Unguided 1_1](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan1_Modul1/unguided/output/operasiFloat-output.png)
 
 Program dari soal Unguided 1 cukup sederhana, dimana saya diharuskan untuk mendeklarasikan 2 variabel bertipe data float untuk menampung inputan dari user kemudian
 akan dioperasikan dengan operasi dasar aritmatika sederhana. Di sini saya menambahkan beberapa rules dasar juga seperti validasi penyebut khusus untuk operasi pembagian,
@@ -172,7 +172,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/renwxyz/103112400148/blob/main/Pertemuan1_Modul1/unguided/output/sebutAngka-output.png)
+![Screenshot Output Unguided 2_1](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan1_Modul1/unguided/output/sebutAngka-output.png)
 
 Program dari soal Unguided 2 sudah mulai menantang. Pada program ini saya mendeklarasikan sebuah fungsi bernama sebutAngka(int n) yang bertugas melakukan pengecekan kondisi angka dengan beberapa aturan dasar. Jika angka yang dimasukkan adalah 0 maka akan dikembalikan kata “nol”, sedangkan jika 100 maka hasilnya “seratus”. Untuk angka di bawah 10 program langsung mengambil kata yang sesuai dari array satuan, sementara untuk angka 10–19 digunakan aturan khusus, misalnya 10 menjadi “sepuluh”, 11 menjadi “sebelas”, dan 12–19 menjadi “[satuan] belas”. Untuk angka 20 hingga 99, program membentuk kata dengan mengambil nilai puluhan seperti “dua puluh” atau “tiga puluh”, kemudian menambahkan kata satuan jika angka tidak habis dibagi sepuluh.
 
@@ -221,7 +221,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/renwxyz/103112400148/blob/main/Pertemuan1_Modul1/unguided/output/mirror-output.png)
+![Screenshot Output Unguided 3_1](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan1_Modul1/unguided/output/mirror-output.png)
 
 Untuk soal unguided yang ke-3 ini cukup mudah karena sebelumnya saya sudah pernah praktik hal demikian akan tetapi berbeda sedikit tapi secara algoritma tidak jauh berbeda, ada beberapa pemahamn baru yang saya dapatkan setelah mecoba menyelesaikan soal ini, yaitu perbedaan antara pre-increment/decrement & post-increment/decrement. Kurang lebih cara kerjanya adalah sebagai berikut, for loop pertama mengatur jumlah baris yang dicetak dari atas ke bawah, for loop ke-2 berfungsi mencetak spasi agar pola bergeser ke kanan, for loop ke-3 mencetak deret angka menurun dari nilai tertentu hingga 1, dan for loop ke-4 mencetak deret angka menaik dari 1 hingga kembali ke nilai semula setelah tanda bintang. Selain itu, terdapat for loop tambahan di dalam blok if yang bertugas mencetak spasi terakhir pada baris paling bawah, kemudian menampilkan satu tanda bintang sebagai penutup pola sehingga bentuk cerminnya terlihat lengkap.
 
