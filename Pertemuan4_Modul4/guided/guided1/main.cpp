@@ -1,0 +1,23 @@
+#include "list.h"
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    linkedlist List;
+    address nodeA, nodeB, nodeC, nodeD, nodeE = Nil;
+    createList(List);
+
+    dataMahasiswa mhs;
+
+    nodeA = alokasi("Dhimas", "2311102151", 20);
+    nodeB = alokasi("Arvin", "2211110014", 21);
+    nodeC = alokasi("Rizal", "2311110029", 20);
+    nodeD = alokasi("Satrio", "2211102173", 21);
+    nodeE = alokasi("Joshua", "2311102133", 21);
+
+    cout << "--- ISI LIST SETELAH DILAKUKAN INSERT ---" << endl;
+    printList(List);
+
+    return 0;
+}
