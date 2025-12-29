@@ -645,7 +645,7 @@ int main() {
 ### Output Unguided :
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan10_Modu10/unguided/output/output.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan10_Modul10/unguided/output/output.png)
 
 ## Deskripsi
 Pada praktikum Modul 10 ini, dilakukan implementasi struktur data Binary Search Tree (BST) menggunakan bahasa pemrograman C++. Praktikum diawali dengan pembuatan header file (bst.h) dan file implementasi (bst.cpp) yang berisi fungsi-fungsi dasar BST, seperti alokasi node, penyisipan data, pencarian node, serta traversal tree. Selain itu, diimplementasikan pula fungsi tambahan untuk menghitung kedalaman tree, jumlah node, dan total nilai seluruh node. Pada bagian unguided, program diuji melalui beberapa file main (soal1.cpp, soal2.cpp, dan soal3.cpp) untuk menampilkan hasil traversal inorder, preorder, dan postorder, serta untuk memastikan fungsi perhitungan bekerja dengan benar. Hasil output menunjukkan bahwa struktur BST dan seluruh operasi yang dibuat dapat berjalan sesuai dengan konsep dan teori yang dipelajari.
