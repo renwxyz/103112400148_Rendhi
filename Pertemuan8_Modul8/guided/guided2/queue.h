@@ -1,6 +1,5 @@
 #ifndef QUEUE_H
 #define QUEUE_H
-
 #include <iostream>
 using namespace std;
 
@@ -12,11 +11,11 @@ struct queue{
     int tail;
 };
 
-bool isFull(queue Q){}
-bool isEmpty(queue Q){}
-void createQueue(queue &Q){}
-void enQueue(queue &Q, string nama){}
-void deQueue(queue &Q){}
-void viewQueue(queue Q){}
+bool isFull(queue Q);
+bool isEmpty(queue Q);
+void CreateQueue(queue &Q);
+void enQueue(queue &Q, string nama);
+void deQueue(queue &Q);
+void viewQueue(queue Q);
 
 #endif

@@ -1,38 +1,25 @@
 #ifndef QUEUE_H
 #define QUEUE_H
-
-#include <iostream>
-#include <string>
+#define NIL NULL
 using namespace std;
+#include <string>
 
-struct Pelanggan{
-    string nama;
+struct Node {
+    std::string nama;
+    Node* next;
 };
 
-typedef struct Node* address;
-
-struct Node{
-    Pelanggan infoPelanggan;
-    address next;
-
+struct queue {
+    Node* head;
+    Node* tail;
 };
 
-struct Queue{
-    address Head;
-    address Tail;
-};
-
-bool isEmpty(Queue q){}
-bool isFull (Queue q){}
-
-void createQueue(Queue &q){}
-void clearqueue(Queue &q){}
-void viewQueue(Queue &q){}
-
-void enqueue(Queue &q, string namaPelanggan){}
-void dequeue(Queue &q){}
-
-
-
+void CreateQueue(queue& Q);
+bool isEmpty(queue Q);
+bool isFull(queue Q);
+void enQueue(queue& Q, const string& nama);
+void deQueue(queue& Q);
+void viewQueue(queue Q);
+void clearQueue(queue& Q);
 
 #endif
