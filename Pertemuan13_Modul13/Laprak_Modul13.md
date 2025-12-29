@@ -1108,11 +1108,11 @@ int main() {
 ### Output Unguided :
 
 ##### Output
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan14_Modu13/unguided/output/output1.png)
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modu13/unguided/output/output2.png)
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modu13/unguided/output/output3.png)
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modu13/unguided/output/output4.png)
-![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modu13/unguided/output/output5.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modul13/unguided/output/output1.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modul13/unguided/output/output2.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modul13/unguided/output/output3.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modul13/unguided/output/output4.png)
+![Screenshot Output Unguided](https://github.com/renwxyz/103112400148_Rendhi/blob/main/Pertemuan13_Modul13/unguided/output/output5.png)
 
 ## Deskripsi
 Pada praktikum Modul 13 ini, dilakukan implementasi struktur data Multi Linked List (MLL) menggunakan bahasa pemrograman C++. Struktur data MLL digunakan untuk merepresentasikan relasi data bertingkat antara node induk (parent) dan node anak (child). Pada bagian guided, struktur MLL diterapkan pada studi kasus menu restoran, di mana kategori makanan berperan sebagai parent dan daftar menu sebagai child. Program mendukung berbagai operasi dasar seperti pembuatan list, alokasi dan dealokasi node, penambahan data (insert), penghapusan data (delete), pencarian data (search), pembaruan data (update), serta penampilan struktur data secara menyeluruh.
